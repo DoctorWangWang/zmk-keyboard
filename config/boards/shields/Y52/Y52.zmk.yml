@@ -4,11 +4,8 @@ name: Y52
 type: shield
 url: 
 requires: [pro_micro]
-exposes: [i2c_oled]
 features:
   - keys
-  - display
-  - encoder
 siblings:
   - Y52_left
   - Y52_right
