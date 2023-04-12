@@ -17,7 +17,7 @@ config ZMK_KEYBOARD_NAME
 	default "y52-1"
 
 config ZMK_SPLIT_ROLE_CENTRAL
-	default y
+	default n
 	
 endif
 
@@ -28,6 +28,8 @@ config ZMK_SPLIT
     
 config ZMK_USB
 	default y
+
+
 	
 
 
