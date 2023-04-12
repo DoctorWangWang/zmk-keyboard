@@ -24,13 +24,6 @@ config BT_CTLR
 config ZMK_BLE
 	default y
 
-config ZMK_USB
-	default y 
-
-CONFIG_ZMK_SPLIT_BLE
-	default y
-
-
 	
 
 endif
