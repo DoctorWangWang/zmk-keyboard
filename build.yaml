@@ -12,4 +12,5 @@ include:
     shield: Y52_left
   - board: nrfmicro_13
     shield: Y52_right
-  
+  - board: nrfmicro_13
+    shield: settings_reset
