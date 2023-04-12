@@ -11,6 +11,16 @@ config ZMK_SPLIT_ROLE_CENTRAL
 	
 endif
 
+if SHIELD_Y52_RIGHT
+
+config ZMK_KEYBOARD_NAME
+	default "y52-s"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+	default n
+	
+endif
+
 
 
 if SHIELD_Y52_LEFT || SHIELD_Y52_RIGHT
