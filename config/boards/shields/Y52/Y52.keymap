@@ -141,7 +141,7 @@ modcp: mod_copy {
     &kp ENTER   &kp MINUS  AS(N4) AS(N5)   AS(N6)  &kp KP_DOT        &macro_email_q    &kp F4 &kp F5 &kp F6    &none &none
    &kp ENTER &kp KP_MULTIPLY  AS(N1) AS(N2) AS(N3) AS(N0)          &macro_phone  &kp F1 &kp F2 &kp F3 &none &none
   &kp LC(C) &mt  LALT LC(V)  &kp BSPC  &kp SPACE                                 &kp LEFT &kp RIGHT &none &none
-     &trans    &to 0 &to 0   &trans                                             &kp UP &kp DOWN &none &none
+     bt BT_CLR   bt BT_CLR  &sys_reset   &trans                                             &kp UP &kp DOWN &none &none
             >;
         };
 
