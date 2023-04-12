@@ -26,11 +26,14 @@ if SHIELD_Y52_LEFT || SHIELD_Y52_RIGHT
 config ZMK_SPLIT
 	default y
 
-config CONFIG_BT
+config BT_CTLR
+	default BT
+
+config ZMK_BLE
 	default y
-    
+
 config ZMK_USB
-	default y
+	default y 
 
 
 	
