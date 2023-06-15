@@ -8,7 +8,9 @@
 #
 ---
 include:
-  - board: nrfmicro_13
+  - board: nice_nano_v2
     shield: Y52_left
-  - board: nrfmicro_13
+  - board: nice_nano_v2
     shield: Y52_right
+  - board: nice_nano_v2
+    shield: settings_reset
